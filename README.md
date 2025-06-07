@@ -1,41 +1,52 @@
-# dados-do-mundo
-Um projeto simples em Python para buscar **informações de países** a partir do nome (em português ou inglês) e gerar um **relatório em PDF** com os dados retornados pela API pública [REST Countries](https://restcountries.com/).
-## ✨ Funcionalidades
+# 🌍 Projeto: Dados do Mundo
 
-- Entrada do nome de um país (em português ou inglês)
-- Tradução automática para o nome aceito pela API
-- Coleta de dados:
-  - Nome oficial
-  - Capital
-  - Região
-  - População
-  - Moeda(s)
-  - Bandeira
-- Geração de um **relatório em PDF**
-- Download automático no Google Colab
+Este projeto permite consultar e gerar um relatório em PDF com informações básicas de qualquer país, usando a [REST Countries API](https://restcountries.com/).
+
+🔍 Informações coletadas:
+- Nome oficial
+- Capital
+- Região
+- População
+- Moeda(s)
+- Bandeira (URL)
+
+📄 O relatório gerado é salvo como PDF e pode ser baixado no Colab.
 
 ---
 
-## 📦 Tecnologias usadas
+## 🚀 Como usar
 
+### ▶️ Execute direto no Google Colab:
+👉 [Abrir no Google Colab](https://colab.research.google.com/)
+
+### 1. Digite o nome do país (em português ou inglês)
+Exemplos válidos:
+- brasil
+- alemanha
+- moçambique
+- japão
+
+### 2. O sistema traduz (se necessário), consulta a API e exibe os dados no console.
+
+### 3. Um PDF é gerado automaticamente com os dados e pode ser baixado.
+
+---
+
+## 🛠️ Tecnologias utilizadas
 - Python 3
-- Biblioteca [`requests`](https://pypi.org/project/requests/)
-- Biblioteca [`fpdf`](https://pypi.org/project/fpdf/)
-- Google Colab (para execução e download)
+- [requests](https://pypi.org/project/requests/)
+- [fpdf](https://pypi.org/project/fpdf/)
+- Google Colab (para execução online)
 
 ---
 
-## ▶️ Como executar
-
-1. Acesse o notebook no Google Colab
-2. Execute as células do topo até o final
-3. Digite o nome de um país, por exemplo: `Brasil`, `Alemanha`, `Japão`, `Moçambique`
-4. O PDF será gerado e baixado automaticamente
-
----
-
-## 📝 Exemplo de uso
-
-```bash
-Digite o nome de um país (em português ou inglês): brasil
-📄 PDF gerado: brasil_dados.pdf
+## 📎 Exemplo de saída
+```text
+📘 Dados do Mundo:
+📄 Nome oficial: Federal Republic of Germany
+🏛️ Capital: Berlin
+🌍 Região: Europe
+👥 População: 83240525
+💰 Moeda(s): euro
+🏳️ Bandeira: https://flagcdn.com/w320/de.png
+📄 PDF gerado: germany_dados.pdf
