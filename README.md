@@ -1,4 +1,4 @@
-# 🌍 Projeto: Dados do Mundo
+# Projeto: Dados do Mundo 🌍
 
 Este projeto permite consultar e gerar um relatório em PDF com informações básicas de qualquer país, usando a [REST Countries API](https://restcountries.com/).
 
@@ -14,7 +14,7 @@ Este projeto permite consultar e gerar um relatório em PDF com informações b�
 
 ---
 
-## 🚀 Como usar
+## Como usar
 
 ### ▶️ Execute direto no Google Colab:
 👉 [Abrir no Google Colab](https://colab.research.google.com/)
@@ -32,7 +32,7 @@ Exemplos válidos:
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 - Python 3
 - [requests](https://pypi.org/project/requests/)
 - [fpdf](https://pypi.org/project/fpdf/)
@@ -40,7 +40,7 @@ Exemplos válidos:
 
 ---
 
-## 📎 Exemplo de saída
+## Exemplo de saída
 ```text
 📘 Dados do Mundo:
 📄 Nome oficial: Federal Republic of Germany
